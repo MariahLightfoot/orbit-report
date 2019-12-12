@@ -24,11 +24,8 @@ export class AppComponent {
             let satellite = new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational);
             this.sourceList.push(satellite);
           }
-          console.log(this.sourceList)
  
        }.bind(this));
     }.bind(this));
- 
- }
- 
+  }
 }
